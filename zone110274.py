@@ -11,7 +11,7 @@ SCREEN_HEIGHT = 600
 FPS = 55
 
 # Set up the display
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.FULLSCREEN | pygame.DOUBLEBUF)
 pygame.display.set_caption("Pygame Window")
 
 # Clock object to control the frame rate
