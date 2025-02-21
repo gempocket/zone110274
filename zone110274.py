@@ -17,6 +17,13 @@ pygame.display.set_caption("Pygame Window")
 # Clock object to control the frame rate
 clock = pygame.time.Clock()
 
+
+# Groups
+background = pygame.sprite.Group()
+middleground = pygame.sprite.Group()
+foreground = pygame.sprite.Group()
+
+
 # Main loop
 running = True
 while running:
