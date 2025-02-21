@@ -1,6 +1,13 @@
 
 import importlib
 
+image_reference = {
+    0: "assets/0.png",
+    1: "assets/1.png",
+    2: "assets/2.png"
+}
+
+
 def generate_level(background, middleground, foreground, current_level, generated_level):
     # Import the level module dynamically
     level_module = importlib.import_module(f'levels.{current_level}')
